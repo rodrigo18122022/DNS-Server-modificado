@@ -1,0 +1,32 @@
+{
+  "$origin": "unsa.edu.pe",
+  "$ttl": 3600,
+
+  "soa": {
+    "mname": "ns1.unsa.edu.pe",
+    "rname": "admin.unsa.edu.pe",
+    "serial": "{time}",
+    "refresh": 3600,
+    "retry": 600,
+    "expire": 604800,
+    "minimum": 86400
+  },
+
+  "ns": [
+    {"host": "ns1.unsa.edu.pe"},
+    {"host": "ns2.unsa.edu.pe"}
+  ],
+
+  "a": [
+    {
+      "name": "@",
+      "ttl": 400,
+      "value": "192.168.1.10"
+    },
+    {
+      "name": "@",
+      "ttl": 400,
+      "value": "192.168.1.11"
+    }
+  ]
+}

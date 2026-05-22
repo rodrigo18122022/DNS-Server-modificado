@@ -1,0 +1,4 @@
+/.idea
+*.pyc
+reqs.txt
+/venv

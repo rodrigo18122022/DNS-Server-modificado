@@ -1,10 +1,22 @@
 # DNS Server
-<img src="https://hide.me/resources/156/images/no-dns-icon@2x.png" width="100" height="100">
 
 A Domain Name Server that allows you to use your own domain name IP address mappings.
 This could be used within private networks to simplify sharing of resources within the network.
 
 The application requires Python 3.x to run (tested with version 3.6).
+
+# Comandos para ejecutar en windows
+
+En una terminal lanzar el servidor Server.py, y en otra los comandos nslookup para ver la respuesta que proporciona el servidor.
+```sh
+python Server.py
+```
+```sh
+nslookup google.com 127.0.0.1
+```
+```sh
+nslookup unsa.edu.pe 127.0.0.1
+```
 
 # How to use
 
